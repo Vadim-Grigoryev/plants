@@ -1,0 +1,1759 @@
+body {
+    margin: 0 auto
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: minmax(117px, 134px) auto minmax(130px, 181px);
+    grid-template-columns: minmax(auto, 1440px);
+}
+
+.header {
+    grid-row: 1/2;
+    grid-column: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #edf2ec;
+}
+
+.headerlogo {
+    flex: 0 5 auto;
+    margin-left: 111px;
+}
+
+.headernav {
+    flex: 0 5 auto;
+    margin-right: 108px;
+    margin-top: 7px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #010201;
+    font-family: "Inika", serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.header a:hover {
+    background-color: #FF8C00;
+    transition: 2s linear;
+}
+
+.headernav-ul {
+    display: flex;
+    align-items: center;
+}
+
+.headernav-ul > li {
+    list-style-type: none;
+    flex: 0 0 auto;
+}
+
+#burger {
+    display: none;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.abouthome {
+    font-family: "Inika", serif;
+    font-weight: 700;
+    font-size: 16px;
+    width: 44px;
+    margin-left: -45px;
+}
+
+#abouthome {
+    color: #e06733;
+}
+
+.aboutheader {
+
+    width: 67px;
+    margin-left: 45px;
+}
+
+.aboutprice {
+    width: 38px;
+    margin-left: 46px;
+}
+
+.aboutservice {
+    width: 55px;
+    margin-left: 46px;
+}
+
+.aboutcontacts {
+    width: 64px;
+    margin-left: 46px;
+}
+
+.main {
+    grid-row: 2/3;
+    grid-column: 1;
+    display: grid;
+    grid-template-rows: 532px minmax(666px, 782px) 1300px 560px 550px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.welcome {
+    grid-row: 1/2;
+    grid-column: 1/3;
+    display: flex;
+    justify-content: space-around;
+    background-color: #edf2ec;
+}
+
+.leafs {
+    max-width: 449px;
+    max-height: 407px;
+    margin-top: 57px;
+    flex-shrink: 1;
+}
+
+.description {
+    max-width: 549px;
+    height: 340px;
+    margin-top: 101px;
+    margin-right: -3px;
+    flex: 0 5 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+    margin-top: 0;
+}
+
+.h1 > span {
+    color: #499a18;
+}
+
+.text-welcome {
+    max-width: 526px;
+    height: 106px;
+    margin-left: 0;
+    margin-bottom: 35px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    font-style: normal;
+    word-spacing: -2px;
+    color: #636060;
+}
+
+.welcomebutton {
+    width: 158px;
+    height: 44px;
+    margin-left: -2px;
+    border: 2px solid #e06733;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.welcomebutton:hover {
+    background-color: blueviolet;
+    transition: 2s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.about {
+    grid-row: 2/3;
+    grid-column: 1/3;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    align-items: center;
+
+}
+
+.about1 {
+    margin-top: -110px;
+    flex: 0 5 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h2about {
+    font-family: "Inika", serif;
+    line-height: 52.12px;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+    color: #499a18;
+    width: 463px;
+    height: 102px;
+    margin-top: 19px;
+}
+
+.h2about > span {
+    color: #e06733;
+}
+
+.text-about {
+    width: 605px;
+    min-height: 208px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+.plant1 {
+    max-width: 464px;
+    max-height: 479px;
+    margin-top: -108px;
+    margin-right: -2px;
+    flex: 0 5 auto;
+}
+
+#plant1 {
+    width: 100%;
+}
+
+.service {
+    grid-row: 3/4;
+    grid-column: 1/3;
+    display: grid;
+    grid-template-rows: 134px 995px;
+    grid-template-columns: 1fr;
+    background-color: #edf2ec;
+}
+
+.projectsblock {
+    grid-row: 1/2;
+    grid-column: 1;
+    margin-left: 109px;
+    margin-top: 40px;
+    display: flex;
+    max-width: 1007px;
+    height: 94px;
+}
+
+.projectsdes {
+    flex-shrink: 5;
+    width: 306px;
+    height: 94px;
+    margin-top: 4px;
+    font-family: "Inika", serif;
+    line-height: 52.12px;
+    font-weight: 400;
+    font-size: 40px;
+    color: #499a18;
+}
+
+.servicebuttons {
+    margin-left: 142px;
+    margin-top: 33px;
+    max-width: 559px;
+    height: 50px;
+    flex: 0 5 auto;
+    display: flex;
+}
+
+.fading {
+    filter: blur(8px);
+    transition: 3s;
+}
+
+.activeColor {
+    background-color: #98FB98 !important;
+    transition: 3s;
+}
+
+.buttongardens {
+    font-family: "Inika", serif;
+    line-height: 26, 06px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #e06733;
+    width: 161px;
+    height: 50px;
+    border: solid #e06733 1px;
+    border-radius: 5px;
+    flex: 0 5 auto;
+}
+
+.buttongardens:hover {
+    cursor: pointer;
+    transform: translateY(5px);
+    background-color: #C0C0C0;
+    transition: 1.5s;
+}
+
+.coloraqua {
+    background-color: #5F9EA0;
+}
+
+.buttonlawn {
+    font-family: "Inika", serif;
+    line-height: 26, 06px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #e06733;
+    width: 161px;
+    height: 50px;
+    border: solid #e06733 1px;
+    border-radius: 5px;
+    margin-left: 38px;
+    flex: 0 0 auto;
+}
+
+.buttonlawn:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    background-color: #C0C0C0;
+    transition: 1s;
+}
+
+.buttonplanting {
+    font-family: "Inika", serif;
+    line-height: 26, 06px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #e06733;
+    width: 161px;
+    height: 50px;
+    border: solid #e06733 1px;
+    border-radius: 5px;
+    margin-left: 38px;
+    flex: 0 0 auto;
+}
+
+.buttonplanting:hover {
+    cursor: pointer;
+    transform: rotateZ(15deg);
+    background-color: #C0C0C0;
+    transition: 1s;
+}
+
+.backgroundToggle {
+    background-color: fuchsia;
+}
+
+.picworks {
+    max-width: 1222px;
+    max-height: 955px;
+    grid-row: 2/3;
+    grid-column: 1;
+    margin-left: 109px;
+    margin-top: 93px;
+    display: grid;
+    grid-template-rows: 450px 450px;
+    grid-template-columns: minmax(auto, 330px) minmax(auto, 330px) minmax(auto, 330px);
+    grid-template-areas:
+        "first second third"
+        "forth fifth sixth";
+    column-gap: 116px;
+    row-gap: 55px;
+}
+
+.cutting {
+    height: 350px;
+    overflow: hidden;
+}
+
+.first {
+    grid-area: first;
+    max-width: 330px;
+    height: 450px;
+    border: Solid #e3e1d5 1px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 3s;
+}
+
+.second {
+    grid-area: second;
+    max-width: 330px;
+    height: 450px;
+    border: Solid #e3e1d5 1px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 3s;
+}
+
+.third {
+    grid-area: third;
+    max-width: 330px;
+    height: 450px;
+    border: Solid #e3e1d5 1px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 3s;
+}
+
+.forth {
+    grid-area: forth;
+    max-width: 330px;
+    height: 450px;
+    border: Solid #e3e1d5 1px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 3s;
+}
+
+.fifth {
+    grid-area: fifth;
+    max-width: 330px;
+    height: 450px;
+    border: Solid #e3e1d5 1px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 3s;
+}
+
+.sixth {
+    grid-area: sixth;
+    max-width: 330px;
+    height: 450px;
+    border: Solid #e3e1d5 1px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 3s;
+}
+
+.figcapturedes {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-left: 31px;
+    color: #717171;
+}
+
+.figcapturegarden {
+    max-width: 120px;
+    max-height: 24px;
+    margin-left: 105px;
+    margin-top: 7px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #e06733;
+}
+
+.figcaptureplanting {
+    max-width: 90px;
+    max-height: 24px;
+    margin-left: 125px;
+    margin-top: 7px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #e06733;
+}
+
+.figcapturelawn {
+    max-width: 104px;
+    max-height: 24px;
+    margin-left: 113px;
+    margin-top: 7px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #e06733;
+}
+
+.figcapturedes {
+    max-width: 300px;
+    min-height: 20px;
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+}
+
+.prices {
+    grid-row: 4/5;
+    grid-column: 1/3;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pricesprices {
+    grid-row: 1;
+    grid-column: 1/2;
+    justify-self: start;
+    width: 135px;
+    height: 49px;
+    margin-left: 110px;
+    margin-top: 43px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.pricesbuttons {
+    grid-row: 1;
+    grid-column: 1/2;
+    justify-self: start;
+    width: 332px;
+    height: 283px;
+    margin-left: 109px;
+    margin-top: 149px;
+    border: solid #e3e1d5 1px;
+    border-radius: 20px;
+}
+
+.pricesbuttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pricesbuttons > button {
+    width: 250px;
+    height: 50px;
+    background: #edf2ec;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonbacics1:hover {
+    cursor: pointer;
+    background-color: #00FA9A;
+    transform: scale(1.1);
+    transition: 3s ease;
+}
+
+.buttonbacics1:hover {
+    cursor: pointer;
+    background-color: #00FA9A;
+    transform: scale(1.1);
+    transition: 3s ease;
+}
+
+.buttonbacics1:hover {
+    cursor: pointer;
+    background-color: #00FA9A;
+    transform: scale(1.1);
+    transition: 3s ease;
+}
+
+.pricesstandard1:hover {
+    cursor: pointer;
+    background-color: #00FA9A;
+    transform: scale(1.1);
+    transition: 3s ease;
+}
+
+.pricespro1:hover {
+    cursor: pointer;
+    background-color: #00FA9A;
+    transform: scale(1.1);
+    transition: 3s ease;
+}
+
+.pricesgardenersbutton:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 3s ease;
+}
+
+.pricesgardenersbutton:hover::before {
+    content: url('pics/smile.jpg')
+}
+
+.contactscity:hover {
+    background-color: #5F9EA0;
+    transition: 2s;
+}
+
+.pricesbuttonsbacisc {
+    margin-left: 33px;
+    margin-top: 6px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    text-align: left;
+}
+
+.pricesbuttonsstandard {
+    margin-left: 32px;
+    margin-top: 6px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    text-align: left;
+}
+
+.pricesbuttonspro {
+    margin-left: 32px;
+    margin-top: 6px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    text-align: left;
+}
+
+.pricescircle {
+    width: 16px;
+    height: 16px;
+    margin-right: 30px;
+    margin-top: 4px;
+}
+
+.pricesgardeners {
+    grid-row: 1;
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h2.pricesgardenerstext {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    max-width: 452px;
+    height: 103px;
+    margin-top: 42px;
+    margin-right: 172px;
+    color: #000000;
+}
+
+h2.pricesgardenerstext > span {
+    color: #499a18;
+}
+
+.pricesgardenersbutton {
+    background-color: white;
+    border: solid #e06733 1px;
+    border-radius: 5px;
+    width: 162px;
+    height: 50px;
+    margin-top: 5px;
+    font-family: "Inika", serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    align-self: center;
+    margin-right: -117px;
+    color: #e06733;
+}
+
+.pricesgardenersleafs1 {
+    width: 152px;
+    height: 175px;
+    margin-top: 39px;
+    align-self: center;
+    margin-right: -117px;
+}
+
+.contacts {
+    grid-row: 5/6;
+    grid-column: 1/3;
+    display: flex;
+    flex-shrink: 2;
+    background: #edf2ec;
+}
+
+.contactspic {
+    max-width: 400px;
+    max-height: 497px;
+    margin-left: 109px;
+    margin-top: 53px;
+}
+
+.contactus {
+    width: 195px;
+    height: 51px;
+    justify-self: start;
+    flex-shrink: 5;
+    margin-left: 114px;
+    margin-top: 63px;
+    font-family: "Inika", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499a18;
+}
+
+.contactscity {
+    flex-shrink: 5;
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+    height: 50px;
+    margin-left: 64px;
+    margin-top: 148px;
+    background: #d6e7d2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.contactscity1 {
+    width: 240px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.contactscityaccordion {
+    width: 16px;
+    height: 16px;
+    margin-right: 28px;
+    margin-top: 18px;
+    justify-self: flex-end;
+}
+
+.footer {
+    grid-row: 3/4;
+    grid-column: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footercopy {
+    max-width: 182px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 109px;
+    flex-shrink: 2;
+}
+
+.footercopycopy {
+    width: 19px;
+    margin-top: 7px;
+    margin-left: 2px;
+}
+
+.footercopyyear {
+    width: 49px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+    margin-left: -4px;
+    margin-top: 3px;
+}
+
+.footercopygit {
+    width: 61px;
+    margin-right: 14px;
+    margin-top: 3px;
+}
+
+.footercopygit > a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.rs {
+    max-width: 217px;
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 3px;
+    flex-shrink: 2;
+    flex-wrap: wrap;
+}
+
+.rs > a {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.footericons {
+    width: 188px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 171px;
+    margin-top: 7px;
+    flex-shrink: 2;
+}
+
+.footericons > img {
+    max-width: 32px;
+    max-height: 32px;
+}
+
+@media all and (max-width: 1458px) {
+    .about {
+        overflow-x: hidden;
+    }
+}
+
+@media all and (max-width:1360px) {
+    .h1 {
+        font-size: 35px;
+    }
+
+    .servicebuttons {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .projectsblock {
+        flex-direction: column;
+    }
+
+    .picworks {
+        column-gap: 10px;
+        row-gap: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .figcapturegarden {
+        margin: 0 auto;
+    }
+
+    .figcaptureplanting {
+        margin: 0 auto;
+    }
+
+    .figcapturelawn {
+        margin: 0 auto;
+    }
+
+    h2.pricesgardenerstext {
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 1054px) {
+    .about {
+        overflow-x: hidden
+    }
+
+    .welcome {
+        overflow-x: hidden
+    }
+}
+
+@media all and (max-width: 900px) {
+    .welcome {
+        justify-content: flex-start;
+        overflow-x: visible;
+    }
+
+    .leafs {
+        width: 280px;
+    }
+
+    .description {
+        width: 346px;
+        min-height: 386px;
+    }
+
+    .welcomebutton {
+        margin-top: 30px;
+    }
+
+    ;
+
+    .text-about {
+        width: 400px;
+    }
+
+    .plant1 {
+        max-width: 300px;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+        overflow-x: visible;
+    }
+
+    .projectsblock {
+        flex-direction: column;
+    }
+
+    .picworks {
+        grid-template-columns: 200px 200px 200px
+    }
+
+    .first,
+    .second,
+    .third,
+    .forth,
+    .fifth,
+    .sixth {
+        width: 200px;
+    }
+
+    h2.pricesgardenerstext {
+        font-size: 25px;
+        width: 292px;
+        height: 78px;
+    }
+
+    .pricesprices {
+        margin-left: 50px;
+    }
+
+    .pricesbuttons {
+        margin-left: 50px;
+    }
+
+    .contacts {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contactscity {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .contactspic {
+        width: 200px;
+        height: 249px;
+        margin-left: 0;
+        margin-top: 25px;
+        justify-self: end;
+    }
+
+    .contactus {
+        margin-left: 0;
+    }
+}
+
+@media all and (max-width: 773px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media all and (max-width: 768px) {
+    body {
+        overflow-x: visible;
+    }
+
+    .container {
+        grid-template-rows: 117px auto minmax(130px, 181px);
+        grid-template-columns: minmax(auto, 768px)
+    }
+
+    .header {
+        height: 117px;
+    }
+
+    .headerlogo {
+        margin-left: 50px;
+    }
+
+    .headernav {
+        margin-right: 15px;
+    }
+
+    .welcome {
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .h1 {
+        font-size: 35px;
+        width: 341px;
+        height: 117px;
+    }
+
+    .main {
+        grid-template-rows: 420px minmax(666px, 782px) minmax(1300px, 1780px) minmax(560px, 585px) minmax(550px, 739px);
+    }
+
+    .leafs {
+        width: 280px;
+        height: 255px;
+        margin-top: 37px;
+        margin-left: 40px;
+    }
+
+    .description {
+        width: 346px;
+        min-height: 310px;
+        margin-top: 44px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-welcome {
+        font-size: 16px;
+        margin-top: -20px;
+        line-height: 25px;
+        width: 315px;
+        height: 105px;
+    }
+
+    .welcomebutton {
+        margin-bottom: 10px;
+        margin-top: -2px;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .h2about {
+        font-size: 35px;
+        margin-top: 55px;
+        line-height: 46px;
+        width: 423px;
+    }
+
+    .text-about {
+        width: 654px;
+        height: 208px;
+        line-height: 30px;
+        font-size: 20px;
+        text-align: justify;
+        margin-top: 34px;
+    }
+
+    .plant1 {
+        width: 250px;
+        height: 258px;
+        margin-top: -82px;
+        margin-left: 31px;
+    }
+
+    .service {
+        grid-template-rows: 244px 1536px;
+    }
+
+    .servicebuttons {
+        margin-left: 0;
+    }
+
+    .projectsblock {
+        flex-direction: column;
+        margin-top: 56px;
+        row-gap: 10px;
+        margin-left: 53px;
+    }
+
+    .projectsdes {
+        font-size: 35px;
+        line-height: 46px;
+    }
+
+    .buttongardens {
+        margin-top: 6px;
+    }
+
+    .buttonlawn {
+        margin-top: 6px;
+    }
+
+    .buttonplanting {
+        margin-top: 6px;
+    }
+
+    .picworks {
+        grid-row: 2/3;
+        grid-column: 1;
+        margin-left: 55px;
+        margin-top: 42px;
+        display: grid;
+        grid-template-rows: minmax(1fr, 450px) minmax(1fr, 450px) minmax(1fr, 450px);
+        grid-template-columns: minmax(auto, 281px) minmax(auto, 281px);
+        grid-template-areas:
+            "first second"
+            "third forth "
+            "fifth sixth";
+        column-gap: 106px;
+        row-gap: 38px;
+    }
+
+    .first {
+        width: 280px;
+        height: 450px;
+    }
+
+    .first > img {
+        width: 280px;
+        height: 350px;
+    }
+
+    .second > img {
+        width: 280px;
+        height: 350px;
+    }
+
+    .third > img {
+        width: 280px;
+        height: 350px;
+    }
+
+    .forth > img {
+        width: 280px;
+        height: 350px;
+    }
+
+    .fifth > img {
+        width: 280px;
+        height: 350px;
+    }
+
+    .sixth > img {
+        width: 280px;
+        height: 350px;
+    }
+
+    .second {
+        width: 280px;
+    }
+
+    .third {
+        width: 280px;
+    }
+
+    .forth {
+        width: 280px;
+    }
+
+    .fifth {
+        width: 280px;
+    }
+
+    .sixth {
+        width: 280px;
+    }
+
+    .figcapturegarden {
+        margin: 10px auto;
+    }
+
+    .figcaptureplanting {
+        margin: 10px auto;
+    }
+
+    .figcapturelawn {
+        margin: 10px auto;
+    }
+
+    .figcapturedes {
+        width: 214px;
+        height: 40px;
+        text-align: center;
+    }
+
+    .pricesprices {
+        font-size: 35px;
+        margin-left: 68px;
+        margin-top: 40px;
+    }
+
+    .pricesbuttons {
+        margin-top: 139px;
+        margin-left: 50px;
+    }
+
+    .pricesgardeners {
+        justify-content: center;
+    }
+
+    h2.pricesgardenerstext {
+        font-size: 25px;
+        width: 292px;
+        height: 78px;
+        margin-top: 65px;
+        margin-left: 33px;
+        line-height: 35px;
+    }
+
+    .pricesgardenersbutton {
+        margin-right: -164px;
+        margin-top: -2px;
+    }
+
+    .pricesgardenersleafs1 {
+        margin-right: -161px;
+    }
+
+    .contacts {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contactscity {
+        margin-top: -161px;
+        margin-left: 37px;
+
+    }
+
+    .contactspic {
+        width: 200px;
+        height: 249px;
+        margin-left: 56px;
+        margin-top: 25px;
+        justify-self: end;
+    }
+
+    .contactus {
+        margin-left: 42px;
+        order: 2;
+        margin-top: 41px;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footercopy {
+        margin-left: 4px;
+        justify-content: space-between;
+        margin-top: 7px;
+    }
+
+    .footercopycopy {
+        width: 100%;
+        margin-top: 7px;
+        margin-left: 23px;
+    }
+
+    .footercopyyear {
+        width: 100%;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 50px;
+        color: rgb(0 0 0);
+        margin-left: 24px;
+        margin-top: 3px;
+    }
+
+    .footercopygit {
+        width: 100%;
+        margin-right: 14px;
+        margin-top: 3px;
+        margin-left: 13px;
+    }
+
+    .rs {
+        margin-top: -10px;
+        margin-left: 29px;
+    }
+
+    .footericons {
+        margin-right: -38px;
+        margin-top: 5px;
+        max-width: 400px;
+    }
+}
+
+@media all and (max-width: 745px) {
+    .main {
+        grid-row: 2/3;
+        grid-column: 1;
+        display: grid;
+        grid-template-rows: 300px 700px 3187px 540px 445px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .h1 {
+        font-size: 25px;
+        line-height: 35px;
+        width: 318px;
+        height: 72px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .leafs {
+        display: none;
+    }
+
+    .h2about {
+        font-size: 25px;
+        margin-top: 55px;
+        line-height: 32px;
+        width: 288px;
+        height: 58px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .text-about {
+        font-size: 15px;
+        line-height: 25px;
+        width: 300px;
+        height: 229px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .servicebuttons {
+        flex-wrap: wrap;
+    }
+
+    .buttongardens {
+        width: 121px;
+        height: 35px;
+    }
+
+    .buttonlawn {
+        width: 121px;
+        height: 35px;
+    }
+
+    .buttonplanting {
+        width: 121px;
+        height: 35px;
+    }
+
+    .picworks {
+        grid-row: 2/3;
+        grid-column: 1;
+        /*margin-left: 55px;
+    margin-top: 42px;*/
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-rows: repeat(6, 450px);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "first"
+            "second"
+            "third"
+            "forth "
+            "fifth"
+            "sixth";
+        row-gap: 34px;
+    }
+
+    .prices {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .pricesprices {
+        font-size: 25px;
+        line-height: 30px;
+        margin-left: 165px;
+    }
+
+    .pricesbuttons {
+        margin-top: 92px;
+        width: 250px;
+    }
+
+    .pricesbuttons > button {
+        width: 200px;
+    }
+
+    .pricesgardeners {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    h2.pricesgardenerstext {
+        font-size: 20px;
+        line-height: 35px;
+        margin-top: 19px;
+    }
+
+    .pricesgardenersbutton {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .contactspic {
+        width: 100px;
+        height: 124px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contactscity {
+        width: 300px;
+        height: 50px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .footercopy {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rs {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footericons {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media all and (max-width: 650px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #burger {
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+        width: 200px;
+        height: 150px;
+        position: absolute;
+        top: 90px;
+        right: -210px;
+        font-size: 25px;
+        background-color: white;
+        border: solid black 2px;
+        transition: 2s;
+    }
+
+    .look {
+        right: 50px;
+        transition: 2s;
+    }
+
+    .abouthome {
+        margin-left: 30px;
+    }
+
+    #abouthome1 {
+        color: purple;
+    }
+
+    .aboutheader {
+        margin-left: 30px;
+    }
+
+    .aboutservice {
+        margin-left: 30px;
+    }
+
+    .aboutprice {
+        margin-left: 30px;
+    }
+
+    .aboutcontacts {
+        margin-left: 30px;
+    }
+
+    .lines {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #lines {
+        opacity: 1;
+    }
+
+    .cross {
+        position: absolute;
+        top: 14px;
+        left: 0;
+    }
+
+    #cross {
+        opacity: 0;
+    }
+
+    .bar {
+        width: 40px;
+        height: 0;
+        margin: 3px auto;
+        background-color: white;
+        border: solid #717171 2px;
+    }
+
+    .bar_cr1 {
+        width: 40px;
+        height: 0;
+        margin: 3px auto;
+        background-color: white;
+        border: solid #717171 2px;
+        transform: translateY(-5px) rotate(45deg);
+    }
+
+    .bar_cr2 {
+        width: 40px;
+        height: 0;
+        margin: 3px auto;
+        background-color: white;
+        border: solid #717171 2px;
+        transform: translateY(-10px) rotate(-45deg);
+    }
+}
+
+@media all and (max-width: 380px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    .h1 {
+        font-size: 25px;
+    }
+
+    .main {
+        grid-row: 2/3;
+        grid-column: 1;
+        display: grid;
+        grid-template-rows: 300px 516px 3150px 512px 445px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .text-welcome {
+        margin-top: -7px;
+    }
+
+    .welcomebutton {
+        width: 100px;
+        height: 34px;
+        font-size: 10px;
+        line-height: 20px;
+        text-align: center;
+        margin-top: -9px;
+        margin-left: 3px;
+    }
+
+    .about {
+        justify-content: center;
+    }
+
+    .h2about {
+        margin-top: 144px;
+        width: 288px;
+        height: 58px;
+        margin-left: 25px;
+        text-align: center;
+    }
+
+    .text-about {
+        margin-top: 0;
+        max-width: 320px;
+        flex-shrink: 2;
+    }
+
+    .projectsdes {
+        font-size: 25px;
+        line-height: 32px;
+        width: 187px;
+        height: 69px;
+        margin-top: -7px;
+        margin-left: -15px;
+    }
+
+    .servicebuttons {
+        margin-top: 3px;
+        margin-left: -17px;
+    }
+
+    .buttonlawn {
+        margin-left: 11px;
+    }
+
+    .buttonplanting {
+        margin-top: 8px;
+        margin-left: 1px;
+    }
+
+    .picworks {
+        margin-top: 26px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .plant1 {
+        width: 150px;
+        height: 147px;
+        margin-top: -16px;
+        margin-left: 49px;
+    }
+
+    h2.pricesgardenerstext {
+        width: 230px;
+        height: 77px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pricesbuttons {
+        width: 224px;
+        height: 235px;
+        margin-left: 92px;
+        margin-top: 112px;
+
+    }
+
+    .pricesbuttons > button {
+        width: 180px;
+        height: 49px;
+    }
+
+    .pricesgardenersbutton {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pricesbuttonsbacisc {
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 30px;
+        margin-top: 0;
+    }
+
+    .pricesbuttonsstandard {
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 30px;
+        margin-top: 0;
+    }
+
+    .pricesbuttonspro {
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 30px;
+        margin-top: 0;
+    }
+
+    .contactus {
+        font-size: 25px;
+        line-height: 33px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footericons {
+        margin-top: -10px;
+    }
+}
+
+@media all and (max-width: 379px) {
+    .h1 {
+        font-size: 15px;
+        line-height: 15px;
+        width: 218px;
+        height: 72px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-welcome {
+        font-size: 12px;
+        margin-top: -20px;
+        line-height: 20px;
+        width: 290px;
+        height: 135px;
+        padding: 0 5px;
+    }
+
+    .welcomebutton {
+        width: 100px;
+        height: 34px;
+        font-size: 10px;
+        line-height: 20px;
+        text-align: center;
+        margin-top: -19px;
+        margin-left: 3px;
+    }
+
+    .h2about {
+        margin-top: 144px;
+        width: 288px;
+        height: 58px;
+        margin-left: 5px;
+    }
+
+    .text-about {
+        margin-top: 0;
+        width: 300px;
+        padding: 0 5px;
+    }
+
+    .picworks {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pricesbuttons {
+        width: 224px;
+        height: 235px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 112px;
+    }
+}
