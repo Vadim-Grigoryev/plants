@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inika&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Plants</title>
+        </head>
+  <body>
+    <div class="container">
+     <header class="header">
+        <div class="headerlogo"><img src="pics/logo.png" alt="logo"></div>
+        <nav class="headernav">
+          <ul class="headernav-ul">
+            <li>
+              <div class="abouthome">
+                <a href="#welcome" id="abouthome" title="home">Home</a>
+              </div>
+            </li>
+            <li>
+              <div class="aboutheader"><a href="#about">About&nbsp;us</a></div>
+            </li>
+            <li>
+              <div class="aboutservice"><a href="#service">Service</a></div>
+            </li>
+            <li>
+              <div class="aboutprice"><a href="#price">Price</a></div>
+            </li>
+            <li>
+              <div class="aboutcontacts"><a href="#contacts">Contacts</a></div>
+            </li>
+          </ul>
+          </nav>
+          <div id="burger_menu">
+             <ul class="headernav-ul burger-menu" id="buter" >
+            <li>
+              <div class="abouthome">
+                <a href="#welcome" id="abouthome1" title="home">Home</a>
+              </div>
+            </li>
+            <li>
+              <div class="aboutheader"><a href="#about">About&nbsp;us</a></div>
+            </li>
+            <li>
+              <div class="aboutservice"><a href="#service">Service</a></div>
+            </li>
+            <li>
+              <div class="aboutprice"><a href="#price">Price</a></div>
+            </li>
+            <li>
+              <div class="aboutcontacts"><a href="#contacts">Contacts</a></div>
+            </li>
+          </ul>
+        </div>
+          <div id="burger" onclick="show()">
+           <div class="lines" id="lines"> 
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <div class="cross" id="cross">
+            <div class="bar_cr1"></div>
+            <div class="bar_cr2"></div>
+          </div>
+          </div> 
+        </header>
+      <main class="main">
+        <section class="welcome" id="welcome">
+          <div class="leafs">
+            <img src="pics/leafs.png" alt="leafs" style="width:100%" title="leafs">
+          </div>
+          <div class="description">
+            <h1 class="h1">We grow <span>plants</span> and give you oxygen</h1>
+            <div class="text-welcome">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </div>
+            <button class="welcomebutton">Learn more</button>
+          </div>
+        </section>
+        <section class="about" id="about">
+          <div class="about1">
+            <h2 class="h2about">
+              We are <span> professional experienced </span> gardeners
+            </h2>
+            <p class="text-about">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+          </div>
+          <div class="plant1">
+            <img
+              id="plant1"
+              src="pics/houseplant1.png"
+              title="plant1"
+              alt="plant1"
+            >
+          </div>
+        </section>
+        <section class="service" id="service">
+          <div class="projectsblock">
+            <h2 class="projectsdes">Service and our projects</h2>
+            <div class="servicebuttons">
+              <button class="buttongardens" >Gardens</button>
+              <button class="buttonlawn">Lawn</button>
+              <button class="buttonplanting">Planting</button>
+            </div>
+          </div>
+          <div class="picworks">
+            <div class="first allGarden">
+              <div class="cutting">
+                <img
+                  style="margin-left: -1px; width: 100%;"
+                  src="pics/first1.png"
+                  alt="first picture"
+                >
+              </div>
+              <div class="figcapturegarden">Garden care</div>
+              <div class="figcapturedes">Lorem Ipsum has been the industry</div>
+            </div>
+            <div class="second allPlanting">
+              <div class="cutting">
+                <img src="pics/first2.png" alt="second picture" style="width: 100%">
+              </div>
+              <div class="figcaptureplanting">Planting</div>
+              <div class="figcapturedes">Lorem Ipsum has been the industry</div>
+            </div>
+            <div class="third allLawn">
+              <div class="cutting">
+                <img src="pics/first3.png" alt="third picture" style="width: 100%; height: 350px;">
+              </div>
+              <div class="figcapturelawn">Lawn care</div>
+              <div class="figcapturedes">Lorem Ipsum has been the industry</div>
+            </div>
+            <div class="forth allPlanting">
+              <div class="cutting">
+              <img src="pics/first4.png" alt="forth picture" style="width: 100%">
+            </div>
+              <div class="figcaptureplanting">Planting</div>
+              <div class="figcapturedes">Lorem Ipsum has been the industry</div>
+            </div>
+            <div class="fifth allGarden">
+              <div class="cutting">
+                <img src="pics/first5.png" alt="fifth picture" style="width: 100%">
+              </div>
+              <div class="figcapturegarden">Garden care</div>
+              <div class="figcapturedes">Lorem Ipsum has been the industry</div>
+            </div>
+            <div class="sixth allPlanting">
+              <div class="cutting">
+                <img src="pics/first6.png" alt="sixth picture" style="width: 100%">
+              </div>
+              <div class="figcaptureplanting">Planting</div>
+              <div class="figcapturedes">Lorem Ipsum has been the industry</div>
+            </div>
+          </div>
+        </section>
+        <section class="prices" id="price">
+          <h2 class="pricesprices">Prices</h2>
+          <div class="pricesbuttons">
+            <button class="buttonbacics1" type="button" name="Bacics" id="Bacics">
+              <span class="pricesbuttonsbacisc">Basics</span>
+              <img
+                src="pics/accordion_btn.png"
+                class="pricescircle"
+                alt="Ellipse"
+              >
+            </button>
+            <button class="pricesstandard1" type="button" name="Standard" id="Standard">
+              <span class="pricesbuttonsstandard">Standard</span>
+              <img
+                src="pics/accordion_btn.png"
+                class="pricescircle"
+                alt="Ellipse"
+              >
+            </button>
+            <button class="pricespro1" type="button" name="Pro care" id="Pro">
+              <span class="pricesbuttonspro">Pro care</span>
+              <img
+                src="pics/accordion_btn.png"
+                class="pricescircle"
+                alt="Ellipse"
+              >
+            </button>
+          </div>
+          <div class="pricesgardeners">
+            <h2 class="pricesgardenerstext">
+              Our best <span> gardeners</span> are ready to help you
+            </h2>
+            <button class="pricesgardenersbutton">Contact us</button>
+            <div class="pricesgardenersleafs1">
+              <img src="pics/leafs1.png" alt="leafs1">
+            </div>
+          </div>
+        </section>
+        <section class="contacts" id="contacts">
+          <div class="contactspic">
+            <img src="pics/contact_woman.png" alt="contact_woman" style="width: 100%;">
+          </div>
+          <h2 class="contactus">Contact us</h2>
+          <button class="contactscity">
+            <span class="contactscity1">City</span>
+            <img
+              src="pics/accordion_btn.png"
+              class="contactscityaccordion"
+              alt="accordion_btn"
+            >
+          </button>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footercopy">
+          <div class="footercopycopy">
+            <img src="pics/copy.png" alt="copyright">
+          </div>
+          <div class="footercopyyear">2022</div>
+          <div class="footercopygit">
+            <a href="https://github.com/Vadim-Grigoryev" title="my github" target="_blank"
+              >github</a
+            >
+          </div>
+        </div>
+        <div class="rs">
+          <a
+            href="https://rs.school/js-stage0/"
+            title="RS School"
+            target="_blank"
+          >
+            Rolling Scopes School</a
+          >
+        </div>
+        <div class="footericons">
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="pics/inst1.svg" title="insta"
+          ></a>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><img src="pics/fb1.svg" title="facebook"
+          ></a>
+          <a href="https://twitter.com/" target="_blank">
+            <img src="pics/tw1.svg" title="twitter"
+          ></a>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.pinterest&hl=ru&gl=US&pli=1"
+            title="pinterest"
+            target="_blank"
+          >
+            <img src="pics/pinterest1.svg" title="pinterest"
+          ></a>
+        </div>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
