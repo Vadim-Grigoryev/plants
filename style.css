@@ -1,7 +1,6 @@
 body {
     margin: 0 auto
 }
-
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -59,7 +58,17 @@ body {
 #burger {
     display: none;
 }
-
+.pop-up {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: greenyellow;
+}
+.hidePop {
+    visibility: hidden;
+}
 .burger-menu {
     display: none;
 }
@@ -1455,6 +1464,9 @@ h2.pricesgardenerstext > span {
     body {
         overflow-x: hidden;
     }
+    .noscroll{
+        overflow: hidden;
+    }
 
     #burger {
         display: block;
@@ -1485,6 +1497,7 @@ h2.pricesgardenerstext > span {
     .look {
         right: 50px;
         transition: 2s;
+        z-index: 2;
     }
 
     .abouthome {
