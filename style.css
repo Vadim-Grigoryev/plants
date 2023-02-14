@@ -886,7 +886,7 @@ h2.pricesgardenerstext > span {
 }
 
 @media all and (max-width: 1054px) {
-    .about {
+       .about {
         overflow-x: hidden
     }
 
@@ -896,6 +896,9 @@ h2.pricesgardenerstext > span {
 }
 
 @media all and (max-width: 900px) {
+    html {
+        overflow-x: hidden;
+    }
     .welcome {
         justify-content: flex-start;
         overflow-x: visible;
@@ -986,14 +989,14 @@ h2.pricesgardenerstext > span {
 }
 
 @media all and (max-width: 773px) {
-    body {
+    html {
         overflow-x: hidden;
     }
 }
 
 @media all and (max-width: 768px) {
-    body {
-        overflow-x: visible;
+    html {
+        overflow-x: hidden;
     }
 
     .container {
@@ -1312,6 +1315,9 @@ h2.pricesgardenerstext > span {
 }
 
 @media all and (max-width: 745px) {
+    html {
+        overflow-x: hidden;
+    }
     .main {
         grid-row: 2/3;
         grid-column: 1;
@@ -1375,8 +1381,6 @@ h2.pricesgardenerstext > span {
     .picworks {
         grid-row: 2/3;
         grid-column: 1;
-        /*margin-left: 55px;
-    margin-top: 42px;*/
         margin-left: auto;
         margin-right: auto;
         display: grid;
@@ -1461,7 +1465,7 @@ h2.pricesgardenerstext > span {
 }
 
 @media all and (max-width: 650px) {
-    body {
+    html {
         overflow-x: hidden;
     }
     .noscroll{
