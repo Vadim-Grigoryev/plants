@@ -2,15 +2,17 @@ function show() {
     show1()
     show2()
     show3()
+    show4()
+    show5()
 }
 
 function show1() {
-    let z=document.getElementById("buter");
-    z.classList.toggle("look")
+    let buter=document.getElementById("buter");
+    buter.classList.toggle("look")
     }
 
     function show2() {
-        var v = document.getElementById("lines");
+        let lines = document.getElementById("lines");
         if (lines.style.opacity === '0') {
             lines.style.opacity = '1'
         } else {
@@ -19,13 +21,45 @@ function show1() {
     }
     
     function show3() {
-        var v = document.getElementById("cross");
+        let cross = document.getElementById("cross");
         if (cross.style.opacity === '1') {
             cross.style.opacity = '0'
         } else {
             cross.style.opacity = '1'
         }
     }
+    
+    const popup=document.querySelector('.pop-up');
+    const show4=()=>{
+      popup.classList.toggle('hidePop') 
+      document.body.classList.toggle('noscroll') 
+    }
+    
+   
+    const show5=()=>{
+        document.body.classList.toggle('noscroll')
+    }
+    
+    const home= document.getElementById('abouthome1')
+    const about= document.getElementById('about11')
+    const service= document.getElementById('service11')
+    const price= document.getElementById('price11')
+    const contact= document.getElementById('contact11')
+     
+    home.addEventListener('click', show)
+    about.addEventListener('click', show)
+    service.addEventListener('click', show)
+    price.addEventListener('click', show)
+    contact.addEventListener('click', show)
+
+    home.addEventListener
+    
+    popup.addEventListener('click', ()=>{
+    popup.classList.add('hidePop') 
+    buter.classList.remove('look')
+    cross.style.opacity=0 
+    lines.style.opacity=1
+    })
 
 const buttonGardens=document.querySelector('.buttongardens');
 const garden=document.querySelectorAll('.allGarden');
